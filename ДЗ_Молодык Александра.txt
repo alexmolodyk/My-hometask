@@ -1,0 +1,43 @@
+1)Summary: The central part(body) of the site(body) http://prestashop.qatestlab.com.ua/ is shifted to the left.
+Description
+Step to reproduce:
+	1.Open home page Prestashop.
+Expected result: The central part of the site is located in the center.
+Actual result:The central part of the site is shifted to the left.
+Priority:High
+Severity:Minor
+
+2)Summary:There is no Russian translation in the "feedback" tab in the central part of the site.
+Description
+Step to reproduce:
+	1.Open the  home page PrestaShop.
+	2.Click on the "Contact us" tab at the top center of the page.
+	3.Click on the English tab at the top center of the page.
+	4.In the menu that opens, select Russian.
+Expected result:The page is fully translated into Russian
+Actual result:The central part of the site(div class="columns-container") is not translated into Russian.
+Priority:Medium
+Severity:Minor
+
+3)Summary: When you click any checkmark in the Product Selection Filters, the site page shifts to the left.
+Description
+Step to reproduce:
+	1.Open the page http://prestashop.qatestlab.com.ua/.
+	2.Click on the women tab.
+	3.Check the box next to size "L"
+Expected result:Products with size "L" will remain on the page.
+Actual result:Site page has shifted to the left.
+Priority:High
+Severity:Critical
+
+4)Summary:The "Choose file" button in the "Contact us" tab does not work.
+Description
+Step to reproduce:
+	1.Open the page http://prestashop.qatestlab.com.ua/.
+	2.Click on the "Contact us" tab at the top center of the page.
+	3.Filling out the form "Send a massage" fields.
+	4.Press the button "Choose file".
+Expected result:A form for selecting a file from a computer opens.
+Actual result:Form does not open.
+Priority:Medium
+Severity:Minor
